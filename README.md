@@ -1,6 +1,6 @@
 # Kaggle Digit Recognizer Submission
 
-These programs utilize machine learning algorithms to classify hand written numbers by digit. More information about the data and purpose, as well as download links for the dataset can be found on the [Kaggle competition page](https://www.kaggle.com/c/digit-recognizer).
+These programs utilize machine learning algorithms to classify hand written numbers by digit. If you want more information about the data and purpose, as well as where the data can be downloaded, head to the [Kaggle competition page](https://www.kaggle.com/c/digit-recognizer).
 
 ## Files
 
