@@ -118,6 +118,11 @@ predicted = classifier.predict(test_transformed)
 print("Classification report for classifier %s:\n%s\n"
       % (classifier, metrics.classification_report(expected, predicted)))
 print("Confusion matrix:\n%s" % metrics.confusion_matrix(expected, predicted))
+
+predicted.shape = (predicted.shape[0], 1)
+difference = np.not_equal(expected, predicted)
+num_different = difference.astype(int).sum()
+print('Number incorrectly labeled: %i' % num_different)
     
 # Plot and label some predicted results
 

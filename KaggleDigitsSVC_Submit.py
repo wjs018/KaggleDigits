@@ -17,7 +17,6 @@
 #
 # Walter Schwenger - wjs018@gmail.com
 
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas
 import csv
